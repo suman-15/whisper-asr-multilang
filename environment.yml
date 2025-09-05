@@ -1,0 +1,20 @@
+name: whisper-eval
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python>=3.10,<3.13
+  - pytorch>=2.2
+  - torchaudio>=2.2
+  - cudatoolkit=11.8  # remove if on CPU-only or use pip wheels
+  - pip
+  - pip:
+      - transformers>=4.44
+      - accelerate>=0.33
+      - datasets>=2.20
+      - evaluate>=0.4
+      - jiwer>=3.0
+      - soundfile
+      - pandas>=2.2
+      - tqdm>=4.66
