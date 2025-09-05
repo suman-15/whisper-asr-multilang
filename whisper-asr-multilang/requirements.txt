@@ -1,0 +1,7 @@
+torch
+transformers
+jiwer
+pandas
+tqdm
+pyyaml
+rich

@@ -1,0 +1,18 @@
+languages:
+  - name: chinese
+    hf_language_code: zh
+    validated_tsv: "D:/CUP_demo_dataset/chinese/validated.tsv"
+    clips_dir: "D:/CUP_demo_dataset/chinese/clips"
+  - name: pashto
+    hf_language_code: ps
+    validated_tsv: "D:/CUP_demo_dataset/pashto/validated.tsv"
+    clips_dir: "D:/CUP_demo_dataset/pashto/clips"
+  - name: urdu
+    hf_language_code: ur
+    validated_tsv: "D:/CUP_demo_dataset/urdu/validated.tsv"
+    clips_dir: "D:/CUP_demo_dataset/urdu/clips"
+
+tsv_columns:
+  path: path
+  text: sentence
+limit_per_language: null
